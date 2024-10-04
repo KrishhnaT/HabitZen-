@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+body{
+    background-color: #CAE5FF;
+}
+
+.header{
+    background-color: #89BBFE;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar ul li{
+    padding-left: 5vh;
+}
+.navbar ul li a{
+    color: black;
+    font-style: none;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calender-section img{
+    width: 80%;
+    height: auto;
+    border-radius: 36px;
+}
+.calender-section{
+    margin-top: 5%;
+}
+.calender-section .text{
+    text-align: right;
+}
