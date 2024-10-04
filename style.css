@@ -5,6 +5,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-overflow: hidden;
+    overflow-x: hidden;
     
 }
 body{
@@ -55,4 +57,66 @@ body{
 }
 .calender-section .text{
     text-align: right;
+}
+.title-section{
+    margin-top: 10vh;
+    text-align: center;
+}
+.title-section h2{
+    padding: 1vh;
+    font-size: 42px;
+}
+.todo-list-section img{
+    width: 80%;
+    height: auto;
+    border-radius: 36px;
+
+}
+.todo-list-section .text{
+    text-align: left;
+}
+.todo-list-section{
+    margin-top: 10vh;
+    text-align: right;
+}
+.todo-list-section .flex{
+    justify-content: space-evenly;
+}
+.footer{
+    margin-top: 5vh;
+    background-color: #89BBFE;
+    border-top-right-radius: 36px;
+    border-top-left-radius: 36px;
+}
+.cylender{
+    background: linear-gradient(33deg, #6cacff, #8debff);
+    width: 96%;
+    height: 92%;
+    position: absolute;
+    left: 2%;
+    z-index: -1;
+    border-radius: 720px;
+    transform: rotate3d(1, 1, 1, -45deg)
+}
+.circle{
+    background: linear-gradient(33deg, #6cacff, #8debff);
+    border-radius: 50%;
+    width: 46%;
+    height: 46%;
+    position: absolute;
+    left: 70%;
+    z-index: -1;
+    border-radius: 720px;
+    transform: rotate3d(1, 1, 1, -45deg)
+}
+.circle-2{
+    background: linear-gradient(33deg, #6cacff, #8debff);
+    border-radius: 50%;
+    width: 46%;
+    height: 46%;
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    border-radius: 720px;
+    transform: rotate3d(0, 0, 1, -45deg)
 }
