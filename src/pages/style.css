@@ -120,3 +120,71 @@ body{
     border-radius: 720px;
     transform: rotate3d(0, 0, 1, -45deg)
 }
+.about-section-1{
+    background-color: rgba(111, 138, 183, 0.59);
+    height: 76%;
+    border-bottom-right-radius: 720px;
+    border-top-right-radius: 720px; 
+    margin-top: 5vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-right: 10vh;
+    
+}
+.about-section-1 .text > div{
+    padding-bottom: 5vh;
+}
+.about-section-1 .text > h3{
+    padding-bottom: 5vh;
+}
+.about-section-1 .text > p{
+    padding-bottom: 5vh;
+}
+.about-section-1 img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+
+}
+.about-section-2{
+    background-color: rgba(111, 138, 183, 0.59);
+    height: 90%;
+    border-bottom-left-radius: 720px;
+    border-top-left-radius: 720px; 
+    margin-top: 15vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-left: 10vh;
+    
+}
+.about-section-2 img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+
+}
+.about-section-2 .text{
+    text-align: right;
+}
+.connection-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i{
+    padding-left: 5px;
+}
+.about-section-2 .text > div{
+    padding-bottom: 5vh;
+}
+.about-section-2 .text > h3{
+    padding-bottom: 5vh;
+}
+.about-section-2 .text > p{
+    padding-bottom: 5vh;
+}
+a{
+    color: black;
+    font-style: none;
+    text-decoration: none
+}
